@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+}
+.hr-dashed {
+  border: 0px;
+  border-top: 1px dashed #b6bfd3;
+  width: 640px;
+}
+.hr-ticket {
+  width: 100%;
+  border: 0.5px solid #b6bfd3;
+}
+.logo {
+  height: 24px;
+}
+.header {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Titillium Web";
+  color: #ffffff;
+  width: 640px;
+  margin: 6px auto;
+}
+.header-background {
+  background-color: #11172b;
+  padding: 6px 0;
+}
+.title-blod {
+  font-weight: 600;
+}
+.ticket-info {
+  width: 640px;
+  margin: 20px auto 20px;
+  padding: 24px 32px;
+  background-color: #ebeff8;
+}
+.info-title {
+  font-size: 16px;
+  color: #b3bdd5;
+}
+.info-title img {
+  height: 12px;
+}
+
+.ticket-info h1 {
+  font-size: 32px;
+  font-family: "Titillium Web";
+  color: #000000;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.ticket-info h2 {
+  font-size: 16px;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 8px 24px;
+}
+.ticket-info p {
+  font-size: 12px;
+  color: #b3bdd5;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+/* ticket */
+.ticket-page {
+  margin: 20px auto;
+  padding: 8px 24px 24px;
+  width: 640px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+.ticket-number {
+  font-size: 12px;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  color: #16bf97;
+  line-height: 18px;
+  border-bottom: 1px solid #dbf1ec;
+  padding-bottom: 8px;
+  margin-bottom: 26px;
+}
+.flight-info,
+.flight {
+  font-size: 12px;
+  font-weight: 500;
+  color: #b3bdd5;
+}
+.flight-time {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a345e;
+}
+.flight-id {
+  font-size: 16px;
+  color: #0b1f66;
+}
+.reservation-button {
+  text-align: right;
+}
+.reservation-button a:first-child {
+  margin-left: auto;
+}
+.reservation-button a {
+  margin-right: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a345e;
+}
+/* 매진 */
+.reservation-button .soldout {
+  color: #dce0e8;
+}
