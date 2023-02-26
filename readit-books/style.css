@@ -102,6 +102,7 @@ main {
 
 .book-thumb {
   overflow: hidden;
+  position: relative;
   margin-top: -56px;
   width: 128px;
   height: 200px;
