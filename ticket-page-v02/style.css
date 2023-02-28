@@ -48,6 +48,9 @@ button:disabled {
 }
 
 .trip {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 40px 0 24px;
   padding: 24px 32px;
   border-radius: 8px;
@@ -102,6 +105,7 @@ button:disabled {
 }
 
 .flights-header-col {
+  flex-shrink: 0;
   width: 147px;
   padding: 18px;
   color: #b1bac9;
@@ -212,6 +216,9 @@ button:disabled {
 }
 
 .ad {
+  position: relative;
+  z-index: -1;
+  margin-top: -40px;
   padding: 47px;
   border-radius: 8px;
   background-color: #ebeff8;
